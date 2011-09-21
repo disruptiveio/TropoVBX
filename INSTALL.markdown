@@ -24,6 +24,9 @@ During the install process, you will be prompted for your Twilio API credentials
 # Step 4b: Connect to Tropo
 During the install process, you will be prompted for your Tropo credentials. You can obtain your Tropo login information from [Tropo.com](https://www.tropo.com/). If you don't have a Tropo account [register for a free developer account](https://www.tropo.com/account/register.jsp).
 
+# Step 4c: Connect to VoiceVault
+During the install process, you will be prompted for your VoiceVault credentials. You can obtain your VoiceVault credentials information from www.voicevault.com. If you don't have a VoiceVault account register for a free developer account. VoiceVault is optional and adds Voice Biometric authentication for password resets. 
+
 # Step 5: Login
 Navigate to the URL of your OpenVBX installation and login using the account you created during the installation. Once you're logged in you'll be able to add users and groups to your new phone system. You can also add devices, provision phone numbers, configure voicemail, and design call flows.
 
@@ -104,6 +107,15 @@ OpenVBX requires a Tropo account to enable provisioning phone numbers, sending a
  * This is the password to your Tropo.com account.
 1. Phono key
  * This is your Phono API key from [phono.com](http://phono.com). This is needed to use the Phono web client for calls.
+
+# Connect to your VoiceVault account
+If you want to use the Voice Biometric authentication for password reset functionality in OpenVBX you have to add a VoiceVault account to enable this functionality. If you don't have a VoiceVault account, register for a free developer account.
+
+- VoiceVault Username: This is your unique VoiceVault API username.
+- VoiceVault password: This is the password to your VoiceVault API account.
+- VoiceVault Config ID: This is the VoiceVault config ID you received when you registered for API access.
+- VoiceVault Organisation ID: This is the VoiceVault Organisation ID you received when you registered for API access.
+- Phone Number: After you finish the installation and add phone numbers to OpenVBX you can complete the VoiceVault installation on the API Accounts tab by selecting the Phone Number, this is the phone number calls will originate from when a user requests a password reset by phone.
 
 # Optional Settings
 OpenVBX has the ability to send email notifications to users. This includes password reset emails, voicemail and SMS notifications, as well as notifications defined by plugins.
