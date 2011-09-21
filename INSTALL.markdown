@@ -88,12 +88,22 @@ OpenVBX requires a MySQL database. You should create a database, and a user with
  * The name of your OpenVBX database.
 
 # Connect to your Twilio account
-OpenVBX requires a Twilio account to enable provisioning phone numbers, sending and receiving voice calls, and sending and receiving SMS. If you don't have a Twilio account, [register for a free trial](https://www.twilio.com/try-twilio) and we'll include $30.00 worth of credit to help you get started.
+OpenVBX requires a Twilio account to enable provisioning phone numbers, sending and receiving voice calls, and sending and receiving SMS from Tropo. If you don't have a Twilio account, [register for a free trial](https://www.twilio.com/try-twilio) and we'll include $30.00 worth of credit to help you get started.
 
 1. Twilio SID
  * This is your account identifier, it is unique to you and can be shared.
 1. Twilio Token
  * This is the key to your Twilio account, it is private and should not be shared.
+
+# Connect to your Tropo account
+OpenVBX requires a Tropo account to enable provisioning phone numbers, sending and receiving voice calls, and sending and receiving SMS from Tropo. If you don't have a Tropo account, [register for a free trial](https://www.tropo.com/account/register.jsp).
+
+1. Tropo username
+ * This is your unique Tropo.com username.
+1. Tropo password
+ * This is the password to your Tropo.com account.
+1. Phono key
+ * This is your Phono API key from [phono.com](http://phono.com). This is needed to use the Phono web client for calls.
 
 # Optional Settings
 OpenVBX has the ability to send email notifications to users. This includes password reset emails, voicemail and SMS notifications, as well as notifications defined by plugins.
