@@ -18,7 +18,7 @@ OpenVBX needs a database from either your hosting provider or your own web serve
 # Step 3: Run the Installer
 Open your web browser and navigate to the URL of your OpenVBX installation. The installer will check that your system meets the minimum requirements and will configure your new phone system. You may have to adjust the permissions on the OpenVBX upload and configuration directories.
 
-# Step 4: Connect to Twilio
+# Step 4a: Connect to Twilio
 During the install process, you will be prompted for your Twilio API credentials. You can obtain your _Account SID_ and _Auth Token_ from your [Twilio Dashboard](https://www.twilio.com/user/account/). You must be logged into your Twilio account to access the dashboard. If you don't have a Twilio account [register for a free trial](https://www.twilio.com/try-twilio) and we'll include $30.00 worth of credit to help you get started.
 
 # Step 4b: Connect to Tropo
