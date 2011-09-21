@@ -7,7 +7,7 @@ Installing OpenVBX is quick and easy, just follow this five step guide to get up
 * Web Server
 * MySQL 5+
 * PHP 5.2 recommended _using less than PHP 5.2 requires [PEAR Services_JSON](http://pear.php.net/package/Services_JSON)_
-* [Twilio Account](https://www.twilio.com/try-twilio)
+* [Twilio Account](https://www.twilio.com/try-twilio) OR [Tropo Account](https://www.tropo.com/) 
 
 # Step 1: Get the Code
 [Download](http://www.openvbx.org/download) the latest release and unpack the source code into your webroot.
@@ -20,6 +20,9 @@ Open your web browser and navigate to the URL of your OpenVBX installation. The 
 
 # Step 4: Connect to Twilio
 During the install process, you will be prompted for your Twilio API credentials. You can obtain your _Account SID_ and _Auth Token_ from your [Twilio Dashboard](https://www.twilio.com/user/account/). You must be logged into your Twilio account to access the dashboard. If you don't have a Twilio account [register for a free trial](https://www.twilio.com/try-twilio) and we'll include $30.00 worth of credit to help you get started.
+
+# Step 4b: Connect to Tropo
+During the install process, you will be prompted for your Tropo credentials. You can obtain your Tropo login information from [Tropo.com](https://www.tropo.com/). If you don't have a Tropo account [register for a free developer account](https://www.tropo.com/account/register.jsp).
 
 # Step 5: Login
 Navigate to the URL of your OpenVBX installation and login using the account you created during the installation. Once you're logged in you'll be able to add users and groups to your new phone system. You can also add devices, provision phone numbers, configure voicemail, and design call flows.
