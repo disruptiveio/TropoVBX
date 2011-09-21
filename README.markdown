@@ -3,7 +3,7 @@
  * Web Server
  * PHP 5.2+
  * MySQL 5+
- * Twilio Account
+ * Twilio or Tropo Account
  * If using less than PHP 5.2
    requires http://pear.php.net/package/Services_JSON
 

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests
+END
+StartRecordingTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/StartRecordingTest.php
+END
+CallTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/CallTest.php
+END
+AskTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/AskTest.php
+END
+RecordTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/RecordTest.php
+END
+HangupTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/HangupTest.php
+END
+MessageTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/MessageTest.php
+END
+ConferenceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sendshorty/!svn/ver/536/SendShorty/b7/protected/extensions/tropo/tests/ConferenceTest.php
+END

@@ -1,0 +1,6 @@
+{
+	"name" : "ACD",
+	"description" : "Disruptive Technologies, ACD applet.",
+    "type" : "voice",
+	"order" : 1
+}
