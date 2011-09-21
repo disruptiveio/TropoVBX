@@ -116,9 +116,9 @@ If you want to use the Voice Biometric authentication for password reset functio
 1. VoiceVault password
  * This is the password to your VoiceVault API account.
 1. VoiceVault Config
- * D: This is the VoiceVault config ID you received when you registered for API access.
+ * This is the VoiceVault config ID you received when you registered for API access.
 1. VoiceVault Organisation
- * D: This is the VoiceVault Organisation ID you received when you registered for API access.
+ * This is the VoiceVault Organisation ID you received when you registered for API access.
 1. Phone Number
  * After you finish the installation and add phone numbers to OpenVBX you can complete the VoiceVault installation on the API Accounts tab by selecting the Phone Number, this is the phone number calls will originate from when a user requests a password reset by phone.
 
