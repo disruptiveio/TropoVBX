@@ -155,7 +155,7 @@ class CI_URI {
 		$parsed_uri = explode("/", $request_uri);
 
 		$i = 0;
-		foreach(explode("/", $fc_path) as $segment)
+		foreach(explode(DIRECTORY_SEPARATOR, $fc_path) as $segment)
 		{
 			if (isset($parsed_uri[$i]) && $segment == $parsed_uri[$i])
 			{
