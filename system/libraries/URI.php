@@ -154,9 +154,19 @@ class CI_URI {
 
 		$parsed_uri = explode("/", $request_uri);
 
+		$base_url = "http"
+			  . ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off')? 's' : '')
+			  . "://" . $_SERVER['HTTP_HOST']
+			  . preg_replace('@/+$@','',
+							 str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']))
+							 )
+			  . '/';
+
 		$i = 0;
-		foreach(explode(DIRECTORY_SEPARATOR, $fc_path) as $segment)
+		foreach(explode('/', $base_url) as $segment)
 		{
+			if (!$segment)
+				continue;
 			if (isset($parsed_uri[$i]) && $segment == $parsed_uri[$i])
 			{
 				$i++;
