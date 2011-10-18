@@ -129,7 +129,7 @@
 					</label>
 
 					<label for="iTropoPassword">Tropo Password
-					<input id="iTropoPassword" class="medium" type="password" name="tropo_password" value="<?php echo htmlspecialchars($tropo_passwod)?>" />
+					<input id="iTropoPassword" class="medium" type="password" name="tropo_password" value="<?php echo htmlspecialchars($tropo_password)?>" />
 					</label>
 
 					<label for="iPhonoApiKey">Phono API Key
