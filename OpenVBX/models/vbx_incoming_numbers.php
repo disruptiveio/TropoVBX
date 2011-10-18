@@ -150,6 +150,7 @@ class VBX_Incoming_numbers extends Model
 						$this->tropo_password);
 					$applications = json_decode($provisioner->viewApplications());
 					$appNumbers = json_decode($provisioner->viewAddresses());
+
 				} catch (Exception $e) {
 					throw new VBX_IncomingNumberException('Failed to connect to Tropo.', 999);
 				}
@@ -159,10 +160,13 @@ class VBX_Incoming_numbers extends Model
 					// 	$provisioner->viewAddresses($application->id));
 					$numbersResult = array();
 					foreach ($appNumbers as $number) {
-						$appID = substr($number->application, 
-							strrpos($number->application, '/')+1);
-						if ($application->id == $appID)
-							$numbersResult[] = $number;
+						if(isset($number->application)){
+							$appID = substr($number->application, 
+								strrpos($number->application, '/')+1);
+							if ($application->id == $appID)
+								$numbersResult[] = $number;
+						} 
+						
 					}
 
 					// Assign the phono app address to the number
