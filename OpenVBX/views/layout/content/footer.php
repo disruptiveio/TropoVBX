@@ -15,7 +15,7 @@
 		/** End Disruptive Technologies code **/
 		?>
 		<div id="ft">
-			<p class="copyright">OpenVBX &bull; <em>v</em><?php echo OpenVBX::version() ?> r<?php echo OpenVBX::schemaVersion() ?> &mdash; Powered by 
+			<p class="copyright">TropoVBX &bull; <em>v</em><?php echo OpenVBX::version() ?> r<?php echo OpenVBX::schemaVersion() ?> &mdash; Powered by 
 			<?php if ($twilio): ?>
 			<a href="http://twilio.com/">Twilio Inc.</a> &bull; <a href="http://www.twilio.com/legal/tos">Terms</a> &bull; <a href="http://www.twilio.com/legal/privacy">Privacy</a>
 			<?php endif;

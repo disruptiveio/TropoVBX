@@ -41,7 +41,7 @@
 				</div>
 
 				<div class="vbx-input-complex vbx-input-container">
-					<label for="tropo_hostname" class="field-label">Alternate Hostname to use in recording URLs (must be a CNAME for your OpenVBX server)
+					<label for="tropo_hostname" class="field-label">Alternate Hostname to use in recording URLs (must be a CNAME for your TropoVBX server)
 						<input class="medium" id="tropo_hostname" name="site[tropo_hostname]" value="<?php echo @$tropo_hostname["value"]; ?>">
 				</div>
 

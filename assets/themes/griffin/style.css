@@ -46,7 +46,7 @@ body,
     height: 60px;
     width: 306px;
     margin: 15px 10px;
-    background: #000 url(images/openvbx-header-logo.png) no-repeat left top;
+    background: #000 url(images/tropovbx-logo.png) no-repeat left top;
     outline: none;
 }
 #openvbx-logo-tropo a {
@@ -55,7 +55,7 @@ body,
     height: 60px;
     width: 230px;
     margin: 15px 10px;
-    background: #000 url(images/openvbx-header-logo-tropo.png) no-repeat left top;
+    background: #000 url(images/tropovbx-logo-tropo.png) no-repeat left top;
     outline: none;
 }
 #openvbx-logo-twilio a {
@@ -64,7 +64,7 @@ body,
     height: 60px;
     width: 230px;
     margin: 15px 10px;
-    background: #000 url(images/openvbx-header-logo-twilio.png) no-repeat left top;
+    background: #000 url(images/tropovbx-logo-twilio.png) no-repeat left top;
     outline: none;
 }
 

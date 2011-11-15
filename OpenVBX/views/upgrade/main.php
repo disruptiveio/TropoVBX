@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Upgrade OpenVBX</title>
+	<title>Upgrade TropoVBX</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>/assets/c/install.css" />
 	<script type="text/javascript" src="<?php echo base_url() ?>/assets/j/frameworks/jquery-1.6.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url() ?>/assets/j/plugins/jquery.validate.js"></script>
@@ -14,7 +14,7 @@
 
 	<div id="install-container">
 
-	<h1 id="openvbx-logo"><a href="<?php echo site_url() ?>/"><span class="replace">OpenVBX</span></a></h1>
+	<h1 id="openvbx-logo"><a href="<?php echo site_url() ?>/"><span class="replace">TropoVBX</span></a></h1>
 
 	<form id="install-form" method="post" action="">
 
@@ -23,10 +23,10 @@
 	<div class="steps">
 
 		<div class="step">
-			<a target="_blank" class="help" href="http://openvbx.org/install#upgrade" title="Get help at OpenVBX.org">Help</a>
+			<!-- <a target="_blank" class="help" href="http://openvbx.org/install#upgrade" title="Get help at OpenVBX.org">Help</a> -->
 			<h1>Upgrade Database</h1>
 			<div class="step-desc">
-				<p>Hey, it looks like your OpenVBX installation needs to be upgraded before you continue.</p>
+				<p>Hey, it looks like your TropoVBX installation needs to be upgraded before you continue.</p>
 	            <div class="upgrade-warning">
 					<p>If you are using 3rd party plugins, make sure
 						they support the 2010-04-01 Twilio API.</p>
@@ -42,7 +42,7 @@
 		</div><!-- .step -->
 
 		<div class="step">
-			<a target="_blank" class="help" href="http://openvbx.org/install#upgrade" title="Get help at OpenVBX.org">Help</a>
+			<!-- <a target="_blank" class="help" href="http://openvbx.org/install#upgrade" title="Get help at OpenVBX.org">Help</a> -->
 			<h1>Database Upgraded</h1>
 			<div class="step-desc">
 				<p>Your database is now ready!</p>

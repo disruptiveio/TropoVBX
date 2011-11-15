@@ -28,7 +28,7 @@ Theme Name: Zen
     height: 60px;
     width: 306px;
     margin: 15px 10px;
-    background: #FFF url(images/openvbx-header-logo.png) no-repeat left top;
+    background: #FFF url(images/tropovbx-logo.png) no-repeat left top;
     outline: none;
 }
 #openvbx-logo-tropo a {
@@ -37,7 +37,7 @@ Theme Name: Zen
     height: 60px;
     width: 230px;
     margin: 15px 10px;
-    background: #FFF url(images/openvbx-header-logo-tropo.png) no-repeat left top;
+    background: #FFF url(images/tropovbx-logo-tropo.png) no-repeat left top;
     outline: none;
 }
 #openvbx-logo-twilio a {
@@ -46,7 +46,7 @@ Theme Name: Zen
     height: 60px;
     width: 230px;
     margin: 15px 10px;
-    background: #FFF url(images/openvbx-header-logo-twilio.png) no-repeat left top;
+    background: #FFF url(images/tropovbx-logo-twilio.png) no-repeat left top;
     outline: none;
 }
 

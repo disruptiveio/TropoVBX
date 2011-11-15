@@ -1,4 +1,4 @@
 		<div id="ft">
-			<p class="copyright">OpenVBX &bull; <em>v</em><?php echo OpenVBX::version() ?> r<?php echo OpenVBX::schemaVersion() ?> &bull; Powered by <a href="http://twilio.com/">Twilio Inc.</a> <a href="http://www.twilio.com/legal/tos">Terms</a> &bull; <a href="http://www.twilio.com/legal/privacy">Privacy</a></p>
+			<p class="copyright">TropoVBX &bull; <em>v</em><?php echo OpenVBX::version() ?> r<?php echo OpenVBX::schemaVersion() ?> &bull; Powered by <a href="http://tropo.com/">Tropo</a> a Voxeo Corporation brand &bull; <a href="https://www.tropo.com/policies/home.jsp">Terms</a> &bull; <a href="https://www.tropo.com/policies/home.jsp?doc=PrivacyPolicy">Privacy</a>
 		</div><!-- #ft -->
 

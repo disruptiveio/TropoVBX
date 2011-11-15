@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Install OpenVBX</title>
+	<title>Install TropoVBX</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>/assets/c/install.css" />
 	<script type="text/javascript" src="<?php echo base_url() ?>/assets/j/frameworks/jquery-1.6.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url() ?>/assets/j/plugins/jquery.validate.js"></script>
@@ -14,7 +14,7 @@
 
 	<div id="install-container">
 
-	<h1 id="openvbx-logo"><a href="<?php echo site_url() ?>/"><span class="replace">OpenVBX</span></a></h1>
+	<h1 id="openvbx-logo"><a href="<?php echo site_url() ?>/"><span class="replace">TropoVBX</span></a></h1>
 
 	<form id="install-form" method="post" action="<?php echo site_url('install/setup'); ?>">
 
@@ -24,10 +24,10 @@
 
 
 		<div id="step-1" class="step">
-			<a target="_blank" class="help" href="http://openvbx.org/install#step1" title="Get help at OpenVBX.org">Help</a>
+			<!-- <a target="_blank" class="help" href="http://openvbx.org/install#step1" title="Get help at OpenVBX.org">Help</a> -->
 			<h1><span class="number">1.</span>Check Server</h1>
 			<div class="step-desc">
-				<p>OpenVBX requires a few things from your server before it can be installed.<br /> Check out our <a target="_blank" href="http://openvbx.org/install">installation guide</a> for help.</p>
+				<p>TropoVBX requires a few things from your server before it can be installed.</p><!--<br /> Check out our <a target="_blank" href="http://openvbx.org/install">installation guide</a> for help.</p>-->
 			</div>
 			<ul class="dependencies">
 				<input type="hidden" name="step" value="1" />
@@ -50,7 +50,7 @@
 
 
 		<div id="step-2" class="step">
-			<a target="_blank" class="help" href="http://openvbx.org/install#step2" title="Get help at OpenVBX.org">Help</a>
+			<!-- <a target="_blank" class="help" href="http://openvbx.org/install#step2" title="Get help at OpenVBX.org">Help</a> -->
 			<h1><span class="number">2.</span>Configure Database</h1>
 
 			<?php if(isset($pass) && $pass === true): ?>
@@ -91,7 +91,7 @@
 			</ul>
 
 			<div id="install-tab-twilio" class="install-tab">
-				<a target="_blank" class="help" href="http://openvbx.org/install#step3" title="Get help at OpenVBX.org">Help</a>
+				<!-- <a target="_blank" class="help" href="http://openvbx.org/install#step3" title="Get help at OpenVBX.org">Help</a> -->
 
 				<p><strong>Twilio Account</strong></p>
 
@@ -176,9 +176,9 @@
 
 
 		<div id="step-4" class="step">
-			<a target="_blank" class="help" href="http://openvbx.org/install#step4" title="Get help at OpenVBX.org">Help</a>
+			<!-- <a target="_blank" class="help" href="http://openvbx.org/install#step4" title="Get help at OpenVBX.org">Help</a> -->
 			<h1><span class="number">4.</span>Options</h1>
-			<p class="step-desc">OpenVBX can send messages and notifications through email. Enter an E-Mail Address that you want to show up as the From address when OpenVBX sends messages.</p>
+			<p class="step-desc">TropoVBX can send messages and notifications through email. Enter an E-Mail Address that you want to show up as the From address when TropoVBX sends messages.</p>
 
 			<fieldset>
 				<input type="hidden" name="step" value="4" />
@@ -186,7 +186,7 @@
 
 					<label for="iFromEmail">Notifications will come from
 					<input id="iFromEmail" class="medium" type="text" name="from_email" value="<?php echo htmlspecialchars($from_email)?>" />
-					<span class="instruction">You'll be able to change this later in your OpenVBX Settings.</span>
+					<span class="instruction">You'll be able to change this later in your TropoVBX Settings.</span>
 					</label>
 
 				<input type="hidden" name="theme" value="<?php echo htmlspecialchars($theme)?>" />
@@ -198,10 +198,10 @@
 
 
 		<div id="step-5" class="step">
-			<a target="_blank" class="help" href="http://openvbx.org/install#step5" title="Get help at OpenVBX.org">Help</a>
+			<!-- <a target="_blank" class="help" href="http://openvbx.org/install#step5" title="Get help at OpenVBX.org">Help</a> -->
 			<h1><span class="number">5.</span>Your Account</h1>
 
-			<p class="step-desc">You will use your account to login to OpenVBX once this installation is complete.</p>
+			<p class="step-desc">You will use your account to login to TropoVBX once this installation is complete.</p>
 
 			<fieldset>
 				<input type="hidden" name="step" value="5" />
@@ -216,7 +216,7 @@
 
 					<label for="iAdminEmail">E-Mail Address
 					<input id="iAdminEmail" class="medium" type="text" name="admin_email" value="<?php echo htmlspecialchars($email)?>" />
-					<span class="instruction">You will use this E-Mail Address to login to OpenVBX</span>
+					<span class="instruction">You will use this E-Mail Address to login to TropoVBX</span>
 					</label>
 
 					<label for="iAdminPw">Password
@@ -236,7 +236,7 @@
 		<div id="step-6" class="step">
 			<h1>Installation Complete!</h1>
 
-			<p class="step-desc">Thanks for choosing OpenVBX, enjoy.</p>
+			<p class="step-desc">Thanks for choosing TropoVBX, enjoy.</p>
 
 			<a id="login-openvbx" href="<?php echo site_url() ?>">Login &raquo;</a>
 
